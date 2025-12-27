@@ -1,0 +1,7 @@
+opencv-python==4.9.0.80
+numpy==1.26.4
+# This version is the most stable for Windows
+mediapipe==0.10.9
+# Critical: Newer protobuf versions break MediaPipe
+protobuf==3.20.3
+pyzmq==25.1.2

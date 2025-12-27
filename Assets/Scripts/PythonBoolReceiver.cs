@@ -17,7 +17,7 @@ public class PythonBoolReceiver : MonoBehaviour
     private bool hasNewValue = false;
 
     //One-time latch
-    private bool animationTriggered = false;
+    public bool animationTriggered = false;
 
     void Start()
     {

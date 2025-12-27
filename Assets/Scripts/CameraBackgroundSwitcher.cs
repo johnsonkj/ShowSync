@@ -6,7 +6,8 @@ public class CameraBackgroundSwitcher : MonoBehaviour
 {
     public Animator carAnimator;
     public GameObject explosionObject;
-
+    public GameObject RestartPanel;
+    public PythonBoolReceiver streamReciever;
     void Start()
     {
 
@@ -26,7 +27,7 @@ public class CameraBackgroundSwitcher : MonoBehaviour
     {
         if(carAnimator!=null)
         {
-            carAnimator.SetTrigger("Start");
+            carAnimator.SetBool("Start",true);
         }
        
     }
@@ -35,7 +36,8 @@ public class CameraBackgroundSwitcher : MonoBehaviour
     { 
         if(carAnimator!=null)
         {
-            carAnimator.SetTrigger("Explode");
+            SetAnimationBoolsFalse();
+            carAnimator.SetBool("Explode", true);
         }
 
         StartCoroutine(PlayBlastAnimation());
@@ -43,9 +45,24 @@ public class CameraBackgroundSwitcher : MonoBehaviour
 
     IEnumerator PlayBlastAnimation()
     {
-        yield return new WaitForSeconds(8f);
+        yield return new WaitForSeconds(4.5f);
         explosionObject.SetActive(false);
         explosionObject.SetActive(true);
-
+        yield return new WaitForSeconds(3f);
+        RestartPanel.SetActive(true);
+        SetAnimationBoolsFalse();
     }
+
+    public void SetAnimationBoolsFalse()
+    {
+         carAnimator.SetBool("Explode", false);
+         carAnimator.SetBool("Restart",false);
+    }
+
+    public void OnRestartButtonClicked()
+    { 
+        carAnimator.SetBool("Restart",true);
+        streamReciever.animationTriggered = false;
+    }
+
 }

@@ -45,7 +45,7 @@ public class CameraBackgroundSwitcher : MonoBehaviour
 
     IEnumerator PlayBlastAnimation()
     {
-        yield return new WaitForSeconds(4.5f);
+        yield return new WaitForSeconds(1f);
         explosionObject.SetActive(false);
         explosionObject.SetActive(true);
         yield return new WaitForSeconds(3f);

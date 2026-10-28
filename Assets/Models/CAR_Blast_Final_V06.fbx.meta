@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 99ce889370581394a9b15391b7f54dd7
+guid: f672409fa9afd9940817e537890a7e96
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,118 +7,173 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Character Body
-    second: {fileID: 2100000, guid: 723475c34d0c67540bcbb710014b16f0, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Character Pant
-    second: {fileID: 2100000, guid: b902e05ef93450840829c55fa8517035, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Character Shirt
-    second: {fileID: 2100000, guid: cf341cc5b58581c41a9bb8d2a1d06516, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Character water line
-    second: {fileID: 2100000, guid: 75c57de433ea70a4b8c95b22e8566128, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: Material.001
-    second: {fileID: 2100000, guid: 5bbed13295ec15f4c838c35b095685b4, type: 2}
+    second: {fileID: 2100000, guid: f8d11c12d7e33d9479e9e89f0a272a31, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.002
-    second: {fileID: 2100000, guid: 1961d9203c9b9354caa0a769e9e3942f, type: 2}
+    second: {fileID: 2100000, guid: 52b451b266e40254bb43274197b27424, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.003
-    second: {fileID: 2100000, guid: 179e587494e7fa5409e31bda723b77dc, type: 2}
+    second: {fileID: 2100000, guid: fc592f96e7aa7764a821a66f796ef272, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.004
-    second: {fileID: 2100000, guid: 8f3c2e62de0c1564ea1e2eb1506445e0, type: 2}
+    second: {fileID: 2100000, guid: 861ddf359af1c6b4da54cb2551ace4ee, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.005
-    second: {fileID: 2100000, guid: 69a9d6d57d6c9bf4ab598ea2aed9aaf9, type: 2}
+    second: {fileID: 2100000, guid: 28ab02687bb55914dbd2979986ad2f73, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.006
-    second: {fileID: 2100000, guid: acbc43fed1038b94c8a84aaedf817624, type: 2}
+    second: {fileID: 2100000, guid: ffefd0a4d7d2a3441a5bbf753bbd2482, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.007
-    second: {fileID: 2100000, guid: fa79a0c4681f2654ea7d33f37c15a993, type: 2}
+    second: {fileID: 2100000, guid: 91176673d9f63674692a60a178d875b8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.008
-    second: {fileID: 2100000, guid: 8163d1bb238da924fbd9d6f16a251232, type: 2}
+    second: {fileID: 2100000, guid: 9ba5d3b1ff381b64c96c456aeb572da2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.009
-    second: {fileID: 2100000, guid: fa7b276019962714c8ded5f2ae611fe7, type: 2}
+    second: {fileID: 2100000, guid: 0b7fc54d71d06ac4d909e8890da20149, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.010
-    second: {fileID: 2100000, guid: fa82d5d5732a6324b92038eed4399398, type: 2}
+    second: {fileID: 2100000, guid: 34543fb013498374e990ce0c09150d56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Body.001
+    second: {fileID: 2100000, guid: b7f1c55751fa68244bd2ef708e592491, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Eye.001
+    second: {fileID: 2100000, guid: 984a69d0b2e91f94992e4cd25eb1414e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Glasses.001
+    second: {fileID: 2100000, guid: 55291af6e67ab894a81e18e8768ae846, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Hair.001
+    second: {fileID: 2100000, guid: ad3c916a3c4ef3540a92cab0dfe517e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Outfit_Bottom.001
+    second: {fileID: 2100000, guid: 5dd67a99782b92f4090d06119ae90134, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Outfit_Footwear.001
+    second: {fileID: 2100000, guid: dc2945e0a9f5efe4cb5f13d06b41e54a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Outfit_Top.001
+    second: {fileID: 2100000, guid: ba21aa926b49c404aa8bb2f1c7bfd6e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Skin.001
+    second: {fileID: 2100000, guid: 7255a55d1c3e2304aa5c2d867f9f9c54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Teeth.001
+    second: {fileID: 2100000, guid: 4394fd837eaa15b478edd73b6709b303, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: 1971_dodge_challenger_rt_badges.etc_7
-    second: {fileID: 2800000, guid: 9bce59e5431d83048bc7bc405ee35558, type: 3}
+    second: {fileID: 2800000, guid: 5148f71b50c9f1045a8cc2c062e317c2, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: 1971_dodge_challenger_rt_cab.etc_6
-    second: {fileID: 2800000, guid: f26796b3437224d479dd3f0f664edac2, type: 3}
+    second: {fileID: 2800000, guid: 67dad7b40e675074991687f9c962b172, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: 1971_dodge_challenger_rt_misc.etc_1
-    second: {fileID: 2800000, guid: d66b60d42121a2d419c0c6cf58a614c5, type: 3}
+    second: {fileID: 2800000, guid: 290c77b090e9a6e4f828ebf8414c8d68, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: Phant
-    second: {fileID: 2800000, guid: 8cc82cb4d1a9d5a458c0e739ada0aad8, type: 3}
+      name: baseColor
+    second: {fileID: 2800000, guid: fa1d2f810664f7640b64e820be9d5295, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: Shirt
-    second: {fileID: 2800000, guid: 80ef6e4deb280104b990b175f2b1dc25, type: 3}
+      name: baseColor.001
+    second: {fileID: 2800000, guid: a001fa606eb75f64b8b6c263705cf284, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: Skin
-    second: {fileID: 2800000, guid: c148063f54f555e47930c2e5af15e259, type: 3}
+      name: baseColor.002
+    second: {fileID: 2800000, guid: a0e0fbc402589f241bc432deb035fc4d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: baseColor.003
+    second: {fileID: 2800000, guid: 63ef711603863c745a9c32bdcb3dd7db, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: car_chassis.etc_8
-    second: {fileID: 2800000, guid: 94c640403a0513945ba473d426152268, type: 3}
+    second: {fileID: 2800000, guid: 5e70672d44a22f144a2d78d54fa4d77a, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: car_rotor_00.etc_3
-    second: {fileID: 2800000, guid: 0bb3b27dfd299ca4cba0e0ae70ee9d70, type: 3}
+    second: {fileID: 2800000, guid: b0d04eb3307a9b646a3ffb305bc951ff, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: car_tyre_tread.etc_0
-    second: {fileID: 2800000, guid: 620aaff8f614af14392c59f2498eba3c, type: 3}
+    second: {fileID: 2800000, guid: aa2562eed5b71294b9e813dd2f463634, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: glasses_id_17_D
+    second: {fileID: 2800000, guid: fd8f7bd1ed5815347baf8a6f99505eba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hair-16-N
+    second: {fileID: 2800000, guid: 0e6f689074c35314d935ca4b66e4adce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jacket-occassionwear-02-redgrey-C
+    second: {fileID: 2800000, guid: 5a75c611d8ac8794c80f8b5173724893, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pants-occasionwear-01-rippedbluejeans-C
+    second: {fileID: 2800000, guid: 2aa2b7de4df44234a9860783676d0929, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tennis-casual-02-white-C
+    second: {fileID: 2800000, guid: 85d52dca3e53cb54ea8774494b85b2f7, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -148,11 +203,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: CarPark
+      name: Part1
       takeName: Scene
       internalID: -623603649343465320
       firstFrame: 1
-      lastFrame: 430
+      lastFrame: 442
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -177,10 +232,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 1
     - serializedVersion: 16
-      name: Blast
+      name: Part2
       takeName: Scene
       internalID: -1609281748187839663
-      firstFrame: 520
+      firstFrame: 470
       lastFrame: 800
       wrapMode: 0
       orientationOffsetY: 0
